@@ -2,7 +2,7 @@ version : "3.3"
 services :
   web :
      build: 
-       context: https://github.com/HamzaAslamKhan/django-notes-app.git
+       context: https://github.com/HamzaAslamKhan/django-notes-app.git#main
 
      image: notes-app:latest 
      ports :
